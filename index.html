@@ -51,17 +51,15 @@
 </head>
 <body>
     <h1>Raffaele Giordani</h1>
-    <button id="downloadPhoto">Download Photo</button>
-    <button id="downloadCV">Download CV</button>
+    <a id="downloadPhoto" href="https://github.com/tuo_username/tuo_repository/raw/main/nome_del_file_foto.jpg" download>
+        <button>Download Photo</button>
+    </a>
+    <a id="downloadCV" href="https://github.com/tuo_username/tuo_repository/raw/main/nome_del_file_cv.pdf" download>
+        <button>Download CV</button>
+    </a>
 
     <script>
-        document.getElementById('downloadPhoto').addEventListener('click', function() {
-            window.location.href = 'https://raw.githubusercontent.com/images-1.jpeg'; // Sostituisci con il percorso della tua foto
-        });
-
-        document.getElementById('downloadCV').addEventListener('click', function() {
-            window.location.href = 'https://raw.githubusercontent.com/curriculum.pdf'; // Sostituisci con il percorso del tuo CV
-        });
+        // Non è più necessario il codice JavaScript per il download
     </script>
 </body>
 </html> 
